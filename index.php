@@ -112,38 +112,6 @@
             </ul>
             
         </ul>
-            <!--
-            <tr><td class="section">DISCIPLINES</td></tr>
-            <tr><td class="info">
-                <ul>
-                <li>viz|rt realtime broadcast graphics systems</li>
-                <li>Interface Design and programming</li>
-                <li>Web Accessibility issues</li>
-                <li>CSS</li>
-                <li>Internet Design</li>
-                <li>Database Design and Programming</li>
-                <li>Print Design</li>
-                <li>Illustration</li>
-                <li>Multimedia CD ROM Graphic Design, Interface Design and Authoring</li>
-                <li>Digital Video Editing</li>
-                <li>2D + 3D Animation</li>
-                <li>Typography</li>
-                </ul>
-            </td></tr>
-            
-            <tr><td class="section">CHRONOLOGY</td></tr>
-            <tr><td class="info">
-            <ul>
-                <
-            </ul>
-            </td></tr>
-     
-            
-            <tr><td class="section">s</td></tr>
-            <tr><td class="info">
-            i
-            </td></tr>
-            </td></tr>
-        </table>-->
+        
     </body>
 </html>

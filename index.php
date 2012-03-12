@@ -1,5 +1,5 @@
 <?php
-    
+    // ad a new function here
     function entitize($str) 
     {
 		$obfuscated = "";							

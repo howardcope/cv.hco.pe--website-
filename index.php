@@ -24,7 +24,7 @@
     </head>
     <body>
         <ul id="cv">
-            <li class="header"><h1>cv.hco.pe</h1></li>
+            <li class="header"><h1>cv.hco.pe</h1> <span class="headerlink">| alternative formats: [<a href="hcope-cv.txt">.txt</a>] [<a href="hcope-cv.pdf">.pdf</a>]</span></li>
             <li class="section"><h2>DETAILS</h2></li>
             <ul class="info">
                 <li class="firstEntry">Howard Cope</li>

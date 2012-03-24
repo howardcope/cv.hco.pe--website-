@@ -4,7 +4,7 @@ body
 {
      font-family:courier;
      font-size: 100.01%;
-     background-color:#eee;
+     background-color:#ddd;
 }
 
 a
@@ -85,6 +85,11 @@ ul#cv ul.info li
     background-color:#eee;
 }
 
+ul#cv ul.info li.firstEntry
+{
+	border-top:2px solid #777;
+}
+
 ul#cv ul.info li.subsection
 {
     margin-top:0px;
@@ -93,6 +98,8 @@ ul#cv ul.info li.subsection
     padding-left: 4px;
     padding-bottom: 4px;
     padding-right: 0px;
+    border-bottom: 0px solid #777;
+    border-right: 0px solid #777;
     font-family:Verdana, Arial, Helvetica, sans-serif;
     background-color:#999;
     color:#eee;

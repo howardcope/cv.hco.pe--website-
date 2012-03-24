@@ -26,7 +26,7 @@
             <li class="header"><h1>cv.hco.pe</h1></li>
             <li class="section"><h2>DETAILS</h2></li>
             <ul class="info">
-                <li>Howard Cope</li>
+                <li class="firstEntry">Howard Cope</li>
                 <li>100B Earlham Road</li>
                 <li>Norwich</li>
                 <li>NR2 3HB </li>
@@ -37,7 +37,7 @@
             </ul>
             <li class="section"><h2>CHRONOLOGY</h2></li>
             <ul class="info">
-                <li><strong>2011 - Present:</strong> Bloomberg TV - vizrt realtime data graphics & systems specialist</li>
+                <li class="firstEntry"><strong>2011 - Present:</strong> Bloomberg TV - vizrt realtime data graphics & systems specialist</li>
                 <li><strong>2007 - 2011:</strong> Spotted Zebra Ltd - Graphic designer/programmer/vizrt consultant/webmaster</li>
                 <li><strong>2001 - 2006:</strong> Accent Design Group - Internet designer/programmer, Illustrator</li>
                 <li><strong>1998 - 2001:</strong> Anglia Campus - Internet Graphic Design, CD ROM Design & Authoring</li>
@@ -49,7 +49,7 @@
             </ul>
             <li class="section"><h2>DISCIPLINES</h2></li>
             <ul class="info">
-                <li>viz|rt realtime broadcast graphics systems</li>
+                <li class="firstEntry">viz|rt realtime broadcast graphics systems</li>
                 <li>Interface Design and programming</li>
                 <li>Web Accessibility issues</li>
                 <li>CSS</li>
@@ -76,9 +76,17 @@
             <li class="section"><h2>PROJECTS</h2></li>
             <ul class="info">
                 <li class="subsection"><h3>Bloomberg TV<h3></li>  
-                <li>Info Item</li>  
+                <li>Managing vizrt realtime data graphics for UK and ASIA channels</li> 
+                <li>Creating Data visualisations and general viz graphics based on producers requests - this involves designing scene structure and programming plugins to process raw data into requred display</li> 
+                <li>Creating and scripting user interfaces in Viz Template Wizard (similar to Visual Studio)</li> 
+                <li>Creating and managing XML files for live data graphics (these provide the link between the user interface templates and the data server)</li> 
+                <li>Managing, troubleshooting, and remaking legacy graphics and scripting</li> 
+                <li>Realising designers' visions of data display into functioning realitime graphics</li> 
+                <li>Modelling 3D scenes, both from designers' models in Cinema 4D and from sketches</li> 
+                <li>Technical liaison with engineering dept </li> 
+                <li>Creative and technical problem solving</li> 
                 <li class="subsection"><h3>Spotted Zebra Ltd<h3></li>  
-                <li>www.spotted-zebra.com website - CSS, Javascript, database design, CMS design and programming including multi user timesheet system (PHP, MySQL)</li>  
+                <li class="firstEntry">www.spotted-zebra.com website - CSS, Javascript, database design, CMS design and programming including multi user timesheet system (PHP, MySQL)</li>  
                 <li>Blackberry - Control interface for Ventuz presentation using C# & MS Access DB</li>  
                 <li>Siemens - Control interface for Ventuz using C# & MS Access DB</li>  
                 <li>TV2 Odense, Denmark - Creation of touchscreen solutions and realtime election graphics, onsite in Odense
@@ -90,6 +98,16 @@
                 <li>Info Item</li>  
                 <li>Info Item</li>  
                 <li>Info Item</li>  
+                
+                <li class="subsection"><h3>Accent Design<h3></li>  
+                <li class="firstEntry">Norfolk Constabulary Website - http://www.norfolk.police.uk (This has since been redesigned by another company)
+										Design/programming of site no database was available so designed a quick, simple flat file structure which was displayed using SSI
+										*Second iteration - Designed and programmed management interface backend,
+										featuring recursive category structure, image upload and resize interface. Coldfusion/access/MSSQL Server/javascript Managed and implemented transfer of site from MS Acces to MSSSQL Server
+										Crystal award for design and usability</li>  
+                <li>Info Item</li>  
+                <li>Info Item</li> 
+                
                 <li class="subsection"><h3>Info Subsection<h3></li>  
                 <li>Info Item</li>  
                 <li>Info Item</li>  

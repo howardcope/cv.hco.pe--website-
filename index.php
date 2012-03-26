@@ -39,12 +39,12 @@
             <li class="section"><h2>CHRONOLOGY</h2></li>
             <ul class="info">
                 <li class="firstEntry"><strong>2011 - Present:</strong> Bloomberg TV - vizrt realtime data graphics & systems specialist</li>
-                <li><strong>2007 - 2011:</strong> Spotted Zebra Ltd - Graphic designer/programmer/vizrt consultant/webmaster</li>
+                <li><strong>2007 - 2011:</strong> Spotted Zebra Ltd - Graphic designer/programmer/vizrt consultant/web developer</li>
                 <li><strong>2001 - 2006:</strong> Accent Design Group - Internet designer/programmer, Illustrator</li>
                 <li><strong>1998 - 2001:</strong> Anglia Campus - Internet Graphic Design, CD ROM Design & Authoring</li>
                 <li><strong>1997 - 1998:</strong> Anglia Interactive - Internet Graphic Design</li>
                 <li><strong>1995 - 1997:</strong> Anglia Multimedia - CD ROM Graphic Design</li>
-                <li><strong>1994 - 1995:</strong> Arnatt Abrey Design (Corporate Design) - Print & Annual Report design</li>
+                <li><strong>1994 - 1995:</strong> Arnatt Abrey Design - Print & Annual Report design, Corporate Design</li>
                 <li><strong>1991 - 1994:</strong> BA(Hons) Graphic Design 2.1 - Norfolk Institute of Art and Design</li>
                 <li><strong>1989 - 1991:</strong> BTech National Diploma Graphic Design - N E Essex School of Art and Design</li>
             </ul>

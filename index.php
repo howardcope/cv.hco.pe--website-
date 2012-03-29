@@ -14,6 +14,9 @@
     $filename = $_SERVER['SCRIPT_FILENAME'];
     $strLastUpdated =  date ("F d Y H:i:s", filemtime($filename));
 	// another change here
+	
+	$xml = simplexml_load_file("cv.xml");
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
@@ -23,6 +26,33 @@
         
     </head>
     <body>
+    <?php
+		echo "<ul id='cv'>";
+		echo '<li class="header"><h1>cv.hco.pe</h1> <span class="headerlink">| alternative formats: [<a href="hcope-cv.txt">.txt</a>] [<a href="hcope-cv.pdf">.pdf</a>]</span></li>';
+		foreach($xml->section as $sect)
+		{
+		
+			//echo "{$a} - {$b}<br />";
+			//echo "new section " . $sect['header'] . "<br />";
+			echo '<li class="section"><h2>' . $sect['header'] . '</h2></li>';
+			
+			foreach ($sect->children("list",true) as $list)
+			{
+				echo '<ul class="info">';
+				
+				foreach ($list->children("item") as $item)
+				{
+					echo '<li>' . $item . '</li>';
+				}	
+				
+				echo '</ul>';
+			}
+		
+		}
+		
+		echo "</ul>";
+    exit(0);
+    ?>
         <ul id="cv">
             <li class="header"><h1>cv.hco.pe</h1> <span class="headerlink">| alternative formats: [<a href="hcope-cv.txt">.txt</a>] [<a href="hcope-cv.pdf">.pdf</a>]</span></li>
             <li class="section"><h2>DETAILS</h2></li>

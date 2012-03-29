@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cv>
+	<section headerType="2" header="DETAILS">
+		<list>
+		    <item>Howard Cope</item>
+		    <item>100B Earlham Road</item>
+		    <item>Norwich</item>
+		    <item>NR2 3HB </item>
+		    <item>DOB: 22nd September 1963</item>
+		    
+		    <item>m: +44 (0) 7905 411 655</item>
+		    <item type="link" href="mailto:msg@hco.pe">e</item>
+		</list>
+	</section>
+   
+	<section headerType="2" header="CHRONOLOGY">
+	</section>
+   
+	<section headerType="2" header="DISCIPLINES">
+	</section>
+   
+	<section headerType="2" header="SKILLS">
+	</section>
+   
+	<section headerType="2" header="SOFTWARE">
+	</section>
+	
+	
+</cv>

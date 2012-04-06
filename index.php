@@ -1,5 +1,88 @@
 <?php
-    // ad a new function here
+	class cvProcessor
+	{
+		private $xmlObject;
+		private $sectionArray;
+		
+		public function __construct($strXMLFilepath)
+		{
+			if (file_exists($strXMLFilepath))
+			{
+				$this->xmlObject = simplexml_load_file($strXMLFilepath);
+				$this->sectionArray = array(); 
+				
+				foreach($this->xmlObject->section as $sect)
+				{
+					// push each new section
+					array_push($this->sectionArray, new cvSection($sect['header'], $sect));
+					
+				} 
+			}     
+			else
+			{
+				$this->xmlObject = null;
+			}
+			
+		}
+		
+		public function outputToWebpage()
+		{
+			if ($this->xmlObject != null) 
+			{
+				$sectionsCount = count($this->sectionArray);
+				echo "Outputting CV as webpage: {$sectionsCount} sections <br />";
+				echo "<ol>\n";
+				foreach ($this->sectionArray as $s)
+				{
+					echo "<li>" . $s->title . " - " . count($s->infoArray) .  "</li>\n";
+					echo "<ol>\n";
+					foreach ($s->infoArray as $infoItem) 
+					{
+						echo "<li>{$infoItem}</li>\n";
+					}
+					echo "</ol>\n";
+				}
+				echo "</ol>\n";
+			}
+			else
+			{
+				echo "La la la, happy thoughts <br />";
+			}
+		}
+		
+		public function outputToTextFile()
+		{
+			if ($this->xmlObject != null) 
+			{
+				echo "Outputting CV as text file <br />";
+			}
+			else
+			{
+				echo "La la la, happy thoughts <br />";
+			}
+		}
+	}
+	
+	class cvSection
+	{
+		public $title;
+		public $infoArray;
+		public function __construct($title, $sectionObject)
+		{
+			$this->title = $title;
+			$this->infoArray = array();
+			
+			// loop through section and fill info array
+			foreach ($sectionObject->secitonInfo->item as $thisItem)
+			{
+				array_push($this->infoArray, $thisItem);
+				
+			}
+			
+		}
+	}
+   
+   
     function entitize($str) 
     {
 		$obfuscated = "";							
@@ -15,7 +98,11 @@
     $strLastUpdated =  date ("F d Y H:i:s", filemtime($filename));
 	// another change here
 	
-	$xml = simplexml_load_file("cv.xml");
+	$cv = new cvProcessor("cv.xml");
+	
+	
+	
+	
 
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -27,7 +114,10 @@
     </head>
     <body>
     <?php
-		echo "<ul id='cv'>";
+    	
+    	$cv->outputToWebpage();
+    	exit(0);
+		/*echo "<ul id='cv'>";
 		echo '<li class="header"><h1>cv.hco.pe</h1> <span class="headerlink">| alternative formats: [<a href="hcope-cv.txt">.txt</a>] [<a href="hcope-cv.pdf">.pdf</a>]</span></li>';
 		foreach($xml->section as $sect)
 		{
@@ -51,7 +141,7 @@
 		}
 		
 		echo "</ul>";
-    exit(0);
+    exit(0);*/
     ?>
         <ul id="cv">
             <li class="header"><h1>cv.hco.pe</h1> <span class="headerlink">| alternative formats: [<a href="hcope-cv.txt">.txt</a>] [<a href="hcope-cv.pdf">.pdf</a>]</span></li>

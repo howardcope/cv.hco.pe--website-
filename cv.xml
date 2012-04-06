@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <cv>
 	<section headerType="2" header="DETAILS">
-		<list>
+		<secitonInfo>
 		    <item>Howard Cope</item>
 		    <item>100B Earlham Road</item>
 		    <item>Norwich</item>
@@ -9,20 +9,37 @@
 		    <item>DOB: 22nd September 1963</item>
 		    
 		    <item>m: +44 (0) 7905 411 655</item>
-		    <item type="link" href="mailto:msg@hco.pe">e</item>
-		</list>
+		    <item type="link">e [a.mail]msg@hco.pe[/a]</item>
+		</secitonInfo>
 	</section>
    
 	<section headerType="2" header="CHRONOLOGY">
+		<secitonInfo>
+			<item class="firstEntry"><strong>2011 - Present:</strong> Bloomberg TV - vizrt realtime data graphics &amp; systems specialist</item>
+			<item>[s]2007 - 2011:[/s] Spotted Zebra Ltd - Graphic designer/programmer/vizrt consultant/web developer</item>
+			<item><strong>2001 - 2006:</strong> Accent Design Group - Internet designer/programmer, Illustrator</item>
+			<item><strong>1998 - 2001:</strong> Anglia Campus - Internet Graphic Design, CD ROM Design &amp; Authoring</item>
+			<item><strong>1997 - 1998:</strong> Anglia Interactive - Internet Graphic Design</item>
+			<item><strong>1995 - 1997:</strong> Anglia Multimedia - CD ROM Graphic Design</item>
+			<item><strong>1994 - 1995:</strong> Arnatt Abrey Design - Print &amp; Annual Report design, Corporate Design</item>
+			<item><strong>1991 - 1994:</strong> BA(Hons) Graphic Design 2.1 - Norfolk Institute of Art and Design</item>
+			<item><strong>1989 - 1991:</strong> BTech National Diploma Graphic Design - N E Essex School of Art and Design</item>
+		</secitonInfo>
 	</section>
    
 	<section headerType="2" header="DISCIPLINES">
+		<secitonInfo>
+		</secitonInfo>
 	</section>
    
 	<section headerType="2" header="SKILLS">
+		<secitonInfo>
+		</secitonInfo>
 	</section>
    
 	<section headerType="2" header="SOFTWARE">
+		<secitonInfo>
+		</secitonInfo>
 	</section>
 	
 	

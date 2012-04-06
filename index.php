@@ -75,6 +75,8 @@
 			// loop through section and fill info array
 			foreach ($sectionObject->secitonInfo->item as $thisItem)
 			{
+				// check for subnodes - strong or link
+				if ()
 				array_push($this->infoArray, $thisItem);
 				
 			}
